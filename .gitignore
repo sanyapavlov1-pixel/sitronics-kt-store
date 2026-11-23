@@ -1,20 +1,42 @@
-# Dependencies
-node_modules/
-
-# Production build
-dist/
-
-# Local environment and secrets
-.env
-.env.*
-!.env.example
-
 # Logs
+logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Caches and local tooling
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Environment variables
+.env
+.env.local
+.env.*.local
+# Database
+*.db
+*.sqlite
+*.sqlite3
+# TypeScript cache
 *.tsbuildinfo
+# Build outputs
+dist/
+build/
+# Test coverage
+coverage/
+.nyc_output/
 .playwright-cli/
 .musepool/
-.DS_Store
