@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "TT Firs Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/TTFirsNeue-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "TT Firs Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/TTFirsNeue-Medium.woff2") format("woff2");
+}
